@@ -1,5 +1,32 @@
 .servicecard-container{
     height: 350px;
-    width: 300px;
-    border: 1px solid burlywood;
+    width: 330px;
+    /* border: 1px solid burlywood; */
+}
+.serverimage{
+    position: relative;
+    height: 350px;
+    width: 330px;
+    
+}
+.serverimage:hover{
+zoom: 105%;
+}
+.servicetitle{
+    position:absolute;
+    margin-top:-120px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+
+}
+.serviceprice{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 20px;
+    padding: 20px;
+    color:white;
+
+
 }

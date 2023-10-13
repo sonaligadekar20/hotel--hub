@@ -4,6 +4,7 @@ import "./About.css";
 import ImageWelcome from "./About-imgs/welcome.png";
 import ImageHotelbooking from "./About-imgs/hotelbooking.png";
 import PalaceCard from "../../components/PalaceCard/PalaceCard";
+import ServiceCard from "../../components/ServiceCard/ServiceCard";
 import Footer from "../../components/Footer/Footer";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -52,6 +53,21 @@ export default function About() {
     
       </div>
 
+      <div className="container-about">
+        <p className="text-about">SPECIAL FEATURES & FACILITIES</p>
+
+        <p className="heading-about">Explore Special Services And <br/>Facilities List</p>
+
+      </div>
+
+      <div className="servicecard">
+        <ServiceCard  image={"https://www.vassallogroupmalta.com/wp-content/uploads/2017/10/Blog-4-Duties-To-be-Expected-from-Room-Service-PART-1-002.jpg"} title={"Room Services"} price={"$256"}/>
+        <ServiceCard  image={"https://www.vassallogroupmalta.com/wp-content/uploads/2017/10/Blog-4-Duties-To-be-Expected-from-Room-Service-PART-1-002.jpg"} title={"Editor Choice For Best Hotel Brand For Services"} price={"2020"}/>
+        <ServiceCard  image={"https://www.vassallogroupmalta.com/wp-content/uploads/2017/10/Blog-4-Duties-To-be-Expected-from-Room-Service-PART-1-002.jpg"} title={"Editor Choice For Best Hotel Brand For Services"} price={"2020"}/>
+        <ServiceCard  image={"https://www.vassallogroupmalta.com/wp-content/uploads/2017/10/Blog-4-Duties-To-be-Expected-from-Room-Service-PART-1-002.jpg"} title={"Editor Choice For Best Hotel Brand For Services"} price={"2020"}/>
+      </div>
+
+    
       <Footer/>
     </>
   );
